@@ -8,7 +8,7 @@ object Winterbells {
 
     SwingUtilities.invokeLater(new Runnable {
       def run() {
-        new Overlay()
+        val overlay = new Overlay()
       }
     })
   }
