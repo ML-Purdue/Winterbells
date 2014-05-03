@@ -4,6 +4,8 @@ import java.awt.GraphicsDevice.WindowTranslucency._
 
 object Winterbells {
   def main(args: Array[String]): Unit = {
+    JFrame.setDefaultLookAndFeelDecorated(true);
+
     SwingUtilities.invokeLater(new Runnable {
       def run() {
         new Overlay()

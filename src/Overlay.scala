@@ -2,7 +2,6 @@ import java.awt._
 import javax.swing._
 
 class Overlay extends JFrame {
-  JFrame.setDefaultLookAndFeelDecorated(true);
   setBackground(new Color(0, 0, 0, 0));
   setSize(Toolkit.getDefaultToolkit().getScreenSize());
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
