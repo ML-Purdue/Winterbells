@@ -3,7 +3,7 @@ import javax.swing._
 
 class Overlay extends JFrame {
   setBackground(new Color(0, 0, 0, 0));
-  setSize(new Dimension(300, 200));
+  setSize(Toolkit.getDefaultToolkit().getScreenSize());
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
   override def paint(g: Graphics) {
