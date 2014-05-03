@@ -7,6 +7,7 @@ class Overlay extends JFrame {
   setSize(Toolkit.getDefaultToolkit().getScreenSize());
   setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   setAlwaysOnTop(true)
+  setVisible(true)
 
   override def paint(g: Graphics) {
     if (g.isInstanceOf[Graphics2D]) {

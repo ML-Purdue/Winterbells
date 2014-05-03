@@ -6,7 +6,7 @@ object Winterbells {
   def main(args: Array[String]): Unit = {
     SwingUtilities.invokeLater(new Runnable {
       def run() {
-        new Overlay().setVisible(true)
+        new Overlay()
       }
     })
   }
